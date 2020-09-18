@@ -31,3 +31,4 @@ before_install:
 # Build the flasher artifact, install the required Ivy version and build the flasher_cli artifacts.
 script:
   - python2.7 build_artifact.py
+  - python2.7 build_artifact.py Ubuntu 18.04 arm64
